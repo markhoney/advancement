@@ -1,16 +1,16 @@
 {
-  "name": "advancement",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "filenamify": "^5.0.2",
-    "node-fetch": "^3.0.0"
-  }
+	"name": "advancement",
+	"version": "1.0.0",
+	"description": "An analysis of the tax free status of religious charities in NZ",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"get": "node index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-fetch": "^3.0.0"
+	}
 }
